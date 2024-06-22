@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tải tệp lên</title>
+</head>
+<body>
+  <h1>Tải tệp lên</h1>
+  <form action="/api/v1/post-market" method="post" enctype="multipart/form-data">
+    <label for="file">Chọn tệp để tải lên:</label>
+    <input type="file" name="file" id="file" required title="Chọn tệp để tải lên">
+    <button type="submit">Tải lên</button>
+  </form>
+</body>
+</html>

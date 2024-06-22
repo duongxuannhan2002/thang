@@ -1,0 +1,30 @@
+{
+  "name": "thang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase": "^10.12.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.10.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "watch": [
+    "src"
+  ],
+  "ext": "js,json",
+  "ignore": [
+    "node_modules"
+  ],
+  "exec": " app.js"
+}
